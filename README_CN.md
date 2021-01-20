@@ -31,7 +31,7 @@ Host-subnet网络就是为了解决这个问题，同时充分利用Cloud环境�
 
 ```asudo docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:stable```
 
-在Rancher UI中添加Host-subnet networking的catalog，repo地址是https://github.com/niusmallnan/host-subnet-catalog.git： 
+在Rancher UI中添加Host-subnet networking的catalog，repo地址是https://github.com/cnrancher/per-host-subnet-catalog.git： 
 ![](https://ws4.sinaimg.cn/mw1024/006tKfTcly1fhnz7awjioj31kw0eztah.jpg)
 
 创建一个新的环境模版：
