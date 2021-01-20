@@ -9,7 +9,7 @@ Rancher Host-Subnet Networking
 
 #### Prepare a Rancher environment based on Host-Subnet
 
-1. Add the new Host-Subnet networking catalog. In `Admin->Settings->Catalog->Add Catalog`, add the Host-Subnet networking catalog at: https://github.com/niusmallnan/host-subnet-catalog.git
+1. Add the new Host-Subnet networking catalog. In `Admin->Settings->Catalog->Add Catalog`, add the Host-Subnet networking catalog at: https://github.com/cnrancher/per-host-subnet-catalog.git
 
 2. Add a new environment template based on Cattle and the new Host-Subnet catalog. In `Environments->Manage Environments->Add Template`, add a new environment template. Update the network configuration to use Host-Subnet by:
     1. Disable `Rancher IPsec` (which is the default Rancher option for network)
