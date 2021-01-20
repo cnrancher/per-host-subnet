@@ -31,7 +31,7 @@
       label: "Enable Route Update"
       description: "This will enable route update."
       type: "boolean"
-      default: "true"
+      default: "false"
       required: true
     - variable: "RANCHER_ROUTE_UPDATE_PROVIDER"
       label: "Route Update Provider"
